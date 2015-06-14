@@ -5,7 +5,9 @@ class Battle {
     private $orderus;
     private $beast;
     private $turns;
+
     private $current_attacker;
+    private $current_defender;
     private $damage;
 
     public function __construct(Warrior $orderus, Warrior $beast) {
@@ -21,38 +23,7 @@ class Battle {
 
         while( ($this->turns > 0) && ($this->orderus->health > 0) && ($this->beast->health > 0) ) {
 
-            //check if first attacker is Orderus
-            if($this->current_attacker == $this->orderus->name) {
-                //Orderus attacks - Beast defends
-                $attack = $this->orderus->name;
-                $defend = $this->beast->name;
-                $this->current_attacker = $this->beast->name;
-            } else {
-                //Beast attacks - Orderus defends
-                $attack = $this->beast->name;
-                $defend = $this->orderus->name;
-                $this->current_attacker = $this->orderus->name;
-            }
-
-            if( !$this->check_probability($this->$defend->luck) ) {
-                echo $this->$defend->name . ' got lucky now <br />';
-                continue;
-            } else {
-                $this->damage = $this->$attack->attack($this->$attack->strength, $this->$defend->defence);
-                $this->damage = $this->$defend->defend($this->damage);
-                $this->$defend->health -= $this->damage;
-            }
-
-            echo "Orderus Stats: ";
-            echo '<pre>';
-            print_r($this->orderus);
-            echo '<br />';
-
-            echo "Beast Stats: ";
-            echo '<pre>';
-            print_r($this->beast);
-
-            echo '--------------------------------------------------------------------------<br /><br />';
+            $this->fight();
 
             //decremnt number of turns
             $this->turns--;
@@ -64,10 +35,38 @@ class Battle {
         //init the battle
         //first attack is made by the fastest or the luckiest
         if($this->orderus->speed == $this->beast->speed) {
-            $this->current_attacker = ($this->orderus->luck > $this->beast->luck) ? $this->orderus->name : $this->beast->name;
+            $this->current_attacker = ($this->orderus->luck > $this->beast->luck) ? $this->orderus : $this->beast;
         } else{
-            $this->current_attacker = ($this->orderus->speed > $this->beast->speed) ? $this->orderus->name : $this->beast->name;
+            $this->current_attacker = ($this->orderus->speed > $this->beast->speed) ? $this->orderus : $this->beast;
         }
+
+        $this->current_defender = $this->get_opposite($this->orderus, $this->beast, $this->current_attacker);
+    }
+
+    private function fight() {
+
+        if( !$this->check_probability($this->current_defender->luck) ) {
+
+            $this->attack();
+            $this->defend();
+
+            $this->health_subtracting($this->damage);
+        }
+
+        $this->current_defender = $this->current_attacker;
+        $this->current_attacker = $this->get_opposite($this->orderus, $this->beast, $this->current_attacker);
+    }
+
+    private function attack() {
+        $this->damage = $this->current_attacker->attack($this->current_attacker->strength, $this->current_defender->defence);
+    }
+
+    private function defend() {
+        $this->damage = $this->current_defender->defend($this->damage);
+    }
+
+    private function health_subtracting($damage) {
+        $this->current_defender->health -= $damage;
     }
 
     private function check_probability($chance) {
@@ -78,6 +77,14 @@ class Battle {
             return FALSE;
         }
 
+    }
+
+    private function get_opposite( $attacker, $defender, $current_attacker ) {
+        if($current_attacker->name == $attacker->name)
+            return $defender;
+        elseif($current_attacker->name == $defender->name)
+            return  $attacker;
+        else return $current_attacker;
     }
 
 } 
