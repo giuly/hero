@@ -26,7 +26,7 @@
       <file leaf-file-name="Warrior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warrior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="35" selection-start="665" selection-end="665" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="918">
+            <state line="47" column="2" selection-start="937" selection-end="937" vertical-scroll-proportion="-30.592592" vertical-offset="20" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -44,8 +44,11 @@
       <file leaf-file-name="Orderus.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Orderus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="2" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-33.25926" vertical-offset="200" max-vertical-offset="1206">
-              <folding />
+            <state line="31" column="20" selection-start="743" selection-end="743" vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="1260">
+              <folding>
+                <marker date="1434342241101" expanded="false" signature="370:382" placeholder="..." />
+                <marker date="1434342241101" expanded="false" signature="614:624" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +56,7 @@
       <file leaf-file-name="Battle.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Battle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.36402568" vertical-offset="704" max-vertical-offset="1710">
+            <state line="100" column="7" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.49892932" vertical-offset="1334" max-vertical-offset="2970">
               <folding />
             </state>
           </provider>
@@ -62,7 +65,7 @@
       <file leaf-file-name="client.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="1" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-31.925926" vertical-offset="470" max-vertical-offset="1476">
+            <state line="46" column="13" selection-start="1118" selection-end="1118" vertical-scroll-proportion="-14.592592" vertical-offset="434" max-vertical-offset="1476">
               <folding />
             </state>
           </provider>
@@ -79,13 +82,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Beast.php" />
-        <option value="$PROJECT_DIR$/Orderus.php" />
-        <option value="$PROJECT_DIR$/Warrior.php" />
-        <option value="$PROJECT_DIR$/client.php" />
         <option value="$PROJECT_DIR$/IState.php" />
         <option value="$PROJECT_DIR$/BeastState.php" />
         <option value="$PROJECT_DIR$/OrderusState.php" />
+        <option value="$PROJECT_DIR$/Warrior.php" />
+        <option value="$PROJECT_DIR$/Orderus.php" />
         <option value="$PROJECT_DIR$/Battle.php" />
+        <option value="$PROJECT_DIR$/client.php" />
       </list>
     </option>
   </component>
@@ -122,6 +125,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,13 +146,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../strategy_pattern" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -193,11 +197,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -219,6 +223,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Warrior.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beast.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Orderus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1242">
+          <folding>
+            <marker date="1434342241101" expanded="false" signature="370:382" placeholder="..." />
+            <marker date="1434342241101" expanded="false" signature="614:624" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Battle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2934">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Warrior.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="21" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="774">
           <folding />
         </state>
@@ -234,7 +276,10 @@
     <entry file="file://$PROJECT_DIR$/Orderus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1026">
-          <folding />
+          <folding>
+            <marker date="1434342241101" expanded="false" signature="370:382" placeholder="..." />
+            <marker date="1434342241101" expanded="false" signature="614:624" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -269,7 +314,10 @@
     <entry file="file://$PROJECT_DIR$/Orderus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="2" selection-start="0" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1026">
-          <folding />
+          <folding>
+            <marker date="1434342241101" expanded="false" signature="370:382" placeholder="..." />
+            <marker date="1434342241101" expanded="false" signature="614:624" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -287,16 +335,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="1" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-31.925926" vertical-offset="470" max-vertical-offset="1476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warrior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="665" selection-end="665" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="918">
+        <state line="47" column="2" selection-start="937" selection-end="937" vertical-scroll-proportion="-30.592592" vertical-offset="20" max-vertical-offset="954">
           <folding />
         </state>
       </provider>
@@ -310,14 +351,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Orderus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="2" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-33.25926" vertical-offset="200" max-vertical-offset="1206">
+        <state line="31" column="20" selection-start="743" selection-end="743" vertical-scroll-proportion="-20.666666" vertical-offset="0" max-vertical-offset="1260">
+          <folding>
+            <marker date="1434342241101" expanded="false" signature="370:382" placeholder="..." />
+            <marker date="1434342241101" expanded="false" signature="614:624" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="13" selection-start="1118" selection-end="1118" vertical-scroll-proportion="-14.592592" vertical-offset="434" max-vertical-offset="1476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Battle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.36402568" vertical-offset="704" max-vertical-offset="1710">
+        <state line="100" column="7" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.49892932" vertical-offset="1334" max-vertical-offset="2970">
           <folding />
         </state>
       </provider>

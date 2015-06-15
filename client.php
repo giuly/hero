@@ -50,18 +50,18 @@ $params = array(
      )
 );
 
-//generate random values for wariorr's properties
+//generate random values for warrior's properties
 foreach($params as $warrior => $param) {
     foreach($param as $key =>$value) {
         $params[$warrior][$key] = get_rand($value['min'], $value['max']);
     }
 }
 
-/*
+/**
  * get_rand return random value between a min and max inputs
  * $param1 - min val
  * $param2 - max val
- * return value beteween min and max
+ * return value between min and max
  * */
 function get_rand($start, $stop) {
     return rand($start, $stop);

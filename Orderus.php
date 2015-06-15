@@ -10,6 +10,8 @@ class Orderus extends Warrior{
 
         $damage = parent::attack($attacker_strength, $defender_defence);
         if($this->rapid_strike()) {
+            //Just for demo
+            echo '<span style="color:orange">rapid strike <br /></span>';
             $damage *=2;
         }
 
@@ -19,6 +21,8 @@ class Orderus extends Warrior{
     public function defend($damage) {
 
         if($this->magic_shield()) {
+            //Just for demo
+            echo '<span style="color:blue">magic shield <br /></span>';
             $damage /= 2;
         }
 
@@ -26,8 +30,7 @@ class Orderus extends Warrior{
     }
 
     //Orderus skills
-
-    /*
+    /**
      * rapid strike - strike twice while it's his turn to attack and
      * there is a 10% chance he use this skill
      * return TRUE/FALSE
@@ -41,7 +44,7 @@ class Orderus extends Warrior{
         }
     }
 
-    /*
+    /**
      * magic shiled - it takes only a half of the usual damage when he is attacked and
      * there are 20% chances of using this skill
      * return TRUE/FALSE
